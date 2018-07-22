@@ -50,10 +50,12 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 /* ====================== Navigation ====================== */
 nav {
+	display: flex;
   width: 100%;
   height: 80px;
   background-color: #252831;
   text-align:center;
+	align-items: center;
 }
 nav h1 {
   margin: auto;
@@ -105,10 +107,14 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
+	display: flex;
   width: 100%;
   height: 50px;
   background-color: #3397DB;
   align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
 }
 .filter-options h2 {
   color: white;
