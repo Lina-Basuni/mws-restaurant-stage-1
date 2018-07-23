@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+  #restaurants-list li{
+    width: 100%;
+  }
+
+  .filter-options{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .filter-options h2 {
+    font-size: 1.5rem;
+  	width: 100%;
+  	padding-top: 10px;
+  }
+
+}
