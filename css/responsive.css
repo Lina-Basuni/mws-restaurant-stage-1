@@ -1,4 +1,4 @@
-/**** small phones*****/
+/**** extra small devices*****/
 
 @media screen and (max-width: 600px) {
   #restaurants-list li{
@@ -19,10 +19,10 @@
 
 }
 
-/**** portrait tablets and large phones****/
+/**** small device (portrait tablets and large phones)****/
 
 @media screen and (min-width: 600px) {
   #restaurants-list li{
-    width: 35%;
+    width: 32%;
   }
 }
