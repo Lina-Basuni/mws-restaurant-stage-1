@@ -17,61 +17,67 @@
   	padding-top: 10px;
   }
 /****restaurant details****/
-.inside{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.inside header{
-  position: relative;
-}
-header{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  position: relative;
-}
-header nav{
-  width: 100%;
-}
-header #breadcrumb li{
-  font-size: large;
-}
-header #breadcrumb{
-  width: 100%
-}
-#maincontent{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100%
-}
-#maincontent #map-container{
-  top: 0px;
-  width: 100%;
-  height: 400px;
-  padding-top: 0px;
-  position: relative;
+  .inside{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .inside header{
+    position: relative;
+  }
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+  }
+  header nav{
+    width: 100%;
+  }
+  header #breadcrumb li{
+    font-size: large;
+  }
+  header #breadcrumb{
+    width: 100%
+  }
+  #breadcrumb{
+    text-align: center;
+  }
+  #maincontent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%
+  }
+  #maincontent #map-container{
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    padding-top: 0px;
+    position: relative;
 
-}
+  }
 
-#maincontent #restaurant-container{
-  width: 100%;
-  padding-top: 30px;
-}
-#maincontent #reviews-container{
-  width: 100%;
-}
-.inside #footer{
-  width: 100%;
-}
-
-
-
-
-
-
-
+  #maincontent #restaurant-container{
+    width: 100%;
+    padding-top: 30px;
+    align-items: center;
+  }
+  #restaurant-address{
+    font-size: 2em;
+  }
+  #restaurant-hours tr td{
+    font-size: 1.5em;
+  }
+  #maincontent #reviews-container{
+    width: 100%;
+  }
+  #reviews-list li p{
+    font-size: 1.5em;
+  }
+  .inside #footer{
+    width: 100%;
+  }
 }
 
 /**** small device (portrait tablets and large phones)****/
@@ -92,6 +98,72 @@ header #breadcrumb{
     width: 100%;
     padding-top: 10px;
   }
+
+  /****restaurant details****/
+  .inside{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .inside header{
+    position: relative;
+  }
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+  }
+  header nav{
+    width: 100%;
+  }
+
+  header #breadcrumb li{
+    font-size: large;
+  }
+  header #breadcrumb{
+    width: 100%
+  }
+  #breadcrumb{
+    text-align: center;
+  }
+  #maincontent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%
+  }
+  #maincontent #map-container{
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    padding-top: 0px;
+    position: relative;
+
+  }
+
+  #maincontent #restaurant-container{
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+  #restaurant-address{
+    font-size: 2em;
+  }
+  #restaurant-hours tr td{
+    font-size: 1.5em;
+  }
+  #maincontent #reviews-container{
+    width: 100%;
+  }
+  #reviews-list li p{
+    font-size: 1.5em;
+  }
+  .inside #footer{
+    width: 100%;
+  }
+
 }
 
 /**** medium devices (landscape tablets )****/
