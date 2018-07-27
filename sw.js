@@ -1,9 +1,9 @@
-const cacheName= "restaurant-cache-1";
-let urls_to_cache= [
+var cacheName= "restaurant-cache-1";
+var urls_to_cache= [
   '/',
   '/CODEOWNERS',
-  '/index.html',
   '/restaurant.html',
+  '/index.html',
   '/css/responsive.css',
   '/css/styles.css',
   '/data/restaurants.json',
@@ -35,5 +35,5 @@ self.addEventListener('fetch', function(event) {
  event.respondWith(
   caches.match(event.request).then(function(response) {
     return response || fetch(event.request);
-  }))
+  }).catch((err) => {console.log("error:",err);}))
 });
